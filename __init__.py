@@ -1,1 +1,3 @@
-"""Contains purely network-related utilities."""
+"""
+Core modules for Traffic Violation Detection System
+"""
