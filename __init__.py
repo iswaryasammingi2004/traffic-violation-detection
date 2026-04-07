@@ -1,3 +1,3 @@
 """
-Core modules for Traffic Violation Detection System
+Utility modules for Traffic Violation Detection System
 """

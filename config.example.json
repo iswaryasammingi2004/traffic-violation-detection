@@ -1,0 +1,43 @@
+{
+    "vehicle_detection_model": "models/yolov8n.pt",
+    "helmet_detection_model": "models/helmet_detector.pt",
+    "anpr_model": "models/anpr_model.pt",
+    
+    "vehicle_detection_threshold": 0.5,
+    "helmet_detection_threshold": 0.6,
+    "triple_riding_threshold": 0.7,
+    "plate_detection_threshold": 0.5,
+    
+    "frame_skip": 5,
+    "resize_width": 640,
+    "confidence_threshold": 0.5,
+    
+    "ocr_confidence_threshold": 0.6,
+    "plate_char_whitelist": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "min_plate_width": 80,
+    "min_plate_height": 20,
+    
+    "location": "Traffic Junction - Main Street",
+    "fine_amounts": {
+        "no_helmet": 500,
+        "triple_riding": 1000,
+        "signal_jump": 500,
+        "overspeeding": 2000
+    },
+    
+    "database_path": "data/violations.db",
+    "backup_enabled": true,
+    "backup_interval": 3600,
+    
+    "save_violation_images": true,
+    "violation_images_path": "data/violations/",
+    "output_video_fps": 30,
+    
+    "log_level": "INFO",
+    "log_file": "logs/system.log",
+    
+    "min_vehicle_area": 1000,
+    "min_rider_area": 500,
+    
+    "device": "auto"
+}
