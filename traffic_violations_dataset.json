@@ -1,0 +1,26 @@
+{
+  "name": "Traffic Violations Dataset",
+  "path": "dataset/traffic_violations",
+  "violation_types": {
+    "no_helmet": {
+      "fine": 500,
+      "description": "Riding without helmet"
+    },
+    "triple_riding": {
+      "fine": 1000,
+      "description": "More than 2 riders"
+    },
+    "signal_jump": {
+      "fine": 500,
+      "description": "Crossing red signal"
+    },
+    "overspeeding": {
+      "fine": 2000,
+      "description": "Exceeding speed limit"
+    }
+  },
+  "download_urls": [
+    "https://github.com/amir-hz/CCTV_Traffic_Detection",
+    "https://github.com/ua-detrac/ua-detrac"
+  ]
+}
