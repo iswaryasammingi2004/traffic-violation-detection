@@ -1,0 +1,12 @@
+{
+  "name": "Helmet Detection Dataset",
+  "path": "dataset/helmet",
+  "classes": [
+    "with_helmet",
+    "without_helmet"
+  ],
+  "nc": 2,
+  "download_urls": [
+    "https://www.kaggle.com/datasets/andrewmvd/helmet-detection"
+  ]
+}
