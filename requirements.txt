@@ -1,0 +1,50 @@
+# Traffic Violation Detection System Requirements
+
+# Core Computer Vision
+opencv-python==4.8.1.78
+numpy==1.24.3
+ultralytics==8.0.196
+
+# Machine Learning
+torch>=2.1.0
+torchvision>=0.16.0
+tensorflow>=2.13.0
+
+# OCR for Number Plate Recognition
+pytesseract==0.3.10
+Pillow==10.0.1
+
+# Database
+# sqlite3 is included in Python standard library
+
+# Web Framework (for dashboard)
+flask==2.3.3
+flask-cors==4.0.0
+
+# Data Processing
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Image Processing
+scikit-image==0.21.0
+
+# Configuration and Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Logging and Monitoring
+loguru==0.7.2
+
+# Testing
+pytest==7.4.2
+pytest-cov==4.1.0
+
+# Development Tools
+black==23.7.0
+flake8==6.0.0
+isort==5.12.0
+
+# Additional Utilities
+requests==2.31.0
+tqdm==4.66.1
